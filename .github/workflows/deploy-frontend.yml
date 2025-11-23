@@ -21,7 +21,7 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
 
       - run: npm ci
-      - run: npm run build -- --output-path=dist --base-href="/FootPulse/"
+      - run: npm run build -- --output-path=dist --base-href="/foot-Pulse/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
