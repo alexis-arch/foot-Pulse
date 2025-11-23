@@ -1,0 +1,5 @@
+services:
+  backend:
+    image: mydockeruser/footpulse-backend:latest
+  frontend:
+    image: mydockeruser/footpulse-frontend:latest
